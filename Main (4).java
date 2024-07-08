@@ -11,7 +11,7 @@ public class Main {
        /* int[] num = new int[7];
         int[] numbers = {50, -20, 0, 30, 40, 60,10};
         boolean equal=true;
-        if (numbers[0]==numbers[6]){
+        if (numbers[0]==numbers[number.length()-1]){
         equal =true;
         }
         else{
@@ -40,13 +40,13 @@ public class Main {
             largeValue = lastNum;}
             System.out.println("Larger value between first and last element: " + largeValue);*/
 //EX4
-           /* int[] num = {20, 30, 40};
-            int[] newArray = new int[num.length];
-            newArray[0] = num[num.length - 1];
-            newArray[num.length - 1] = num[0];
-            for (int i = 1; i < num.length - 1; i++) {
-            newArray[i] = num[i];}
-            System.out.println("New array after swapping the first and last elements: " + Arrays.toString(newArray));*/
+           /*  int[] Array1 = {20, 30, 40};
+              int fInd = Array1[0];
+              int LInd = Array1.length - 1;
+              Array1[0] = Array1[LInd];
+             Array1[LInd] = fInd;
+
+            System.out.println("New array after swapping: " + Arrays.toString(Array1));*/
 
 //EX5
         /*int[] numbers = {2, 3, 40, 1, 5, 9, 4, 10, 7};
